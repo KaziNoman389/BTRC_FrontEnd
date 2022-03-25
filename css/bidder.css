@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  font-size: 1rem; /* --changed-- */
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(236, 234, 234);
+  color:black;
+}
+body{
+  width: 100%;
+  min-height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+  
+a{
+    text-decoration: none;
+}
+
+/* ---------------- NavBar --------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 3px solid lightgrey;
+}
+
+#navbar{
+  display: flex;
+  justify-content: center;
+}
+
+#home{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.25rem; /* --changed-- */
+  font-weight: 600;
+}
+
+#bidder{
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 1.25rem; /* --changed-- */
+  font-weight: 600;
+}
+
+/* ---------------- Body --------------- */
+#card_id{
+  box-shadow: 5px 10px 18px #7a7979;
+}
+
+#main_card1, #main_card2{
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 5px 10px 18px #7a7979;
+  margin-top: 20px;
+}
+
+/* -- Static Part -- */
+
+#title{
+  font-size: 0.75rem; /* --changed-- */
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#auction, #bid{
+  font-size: 0.75rem; /* --changed-- */
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* -- Dynamic Part -- */
+
+#card_body{
+  border: 2px solid #ff0303;
+}
+
+#table_header{
+  font-size: 1.5rem; /* --changed-- */
+  text-transform: uppercase;
+}
+
+#row_id{
+  font-size: 1.625rem; /* --changed-- */
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#round_id, #time_id{
+  font-size: 1.75rem; /* --changed-- */
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#round{
+  font-size: 4rem; /* --changed-- */
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(220, 20, 20);
+}
+
+#time{
+  font-size: 4rem; /* --changed-- */
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(220, 20, 20);
+  color: white;
+}
+
+#bid_btn{
+  margin-top: 8px;
+  width: 100%;
+  height: 14vh;
+  font-size: 2.25rem; /* --changed-- */
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+/* ------changes----- */
+
+
+#row_id{
+  height: 46vh;
+}
+
+/* -------Auctioneer Page------- */
+@media (max-width:1440px) {
+  /* max-height:537px */
+  #row_id{
+    height: 30vh;
+  }
+}
+
+@media (max-width:2560px) {
+  body{
+    height: 967px;
+  }
+  #main_card1{
+    height: 30vh;
+  }
+  #card1{
+    height: 28vh;
+  }
+  #main_card2{
+    height: 55vh;
+  }
+  #card_id{
+    height: 54vh;
+  }
+  #start{
+    font-size: 2rem;
+    height: 10vh;
+  }
+  #next{
+    font-size: 2rem;
+    height: 7vh;
+  }
+  #round, #time{
+    font-size: 6rem;
+  }
+  #home, #auctioneer ,#result{
+    font-size: 2rem;
+  }
+  #title{
+    font-size: 2rem;
+  } 
+  #auction, #bid{
+    font-size: 2rem;
+  }
+  #table_header{
+    font-size: 2.5rem;
+  }
+  #row_id{
+    font-size: 2.5rem;
+  }
+  #round_id, #time_id{
+    font-size: 4rem;
+  }
+}
+
+/* ------------------ */
+
+
+/* 1366*768 */
+/* 1920*1080 */
+/* 1440*537 */
+/* 2560 x 1440 */
