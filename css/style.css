@@ -65,6 +65,17 @@ a {
   height: 10%;
   width: 15vw;
 }
+#logout {
+  margin-top: 0px;
+  margin-left: 25px;
+  font-size: 1.25rem; /* --changed-- */
+  font-weight: 600;
+  color: white;
+  background-color: brown;
+  height: 10%;
+  width: 15vw;
+}
+
 
 /* ---------------- Body --------------- */
 #card_id,
@@ -234,8 +245,15 @@ a {
     background-color: rgb(255, 255, 255);
   }
   #home,
-  #result,
-  #auctioneer {
+  #result{
+    font-size: 2rem;
+  }
+  #auctioneer{
+    margin-top: 8px;
+    font-size: 2rem;
+  }
+  #logout{
+    margin-top: 0px;
     font-size: 2rem;
   }
   #main_card1 {
@@ -266,7 +284,7 @@ a {
   }
   #round,
   #time {
-    font-size: 6rem;
+    font-size: 7.5rem;
   }
   #start {
     margin-top: 10px;
@@ -288,7 +306,7 @@ a {
   }
   #row_id {
     font-size: 2.5rem;
-    height: 44.2vh;
+    height: 45.5vh;
   }
 }
 
